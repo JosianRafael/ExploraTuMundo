@@ -1,0 +1,1 @@
+import{j as i}from"./jsx-runtime.7faW4zRM.js";import{m as o}from"./motion.DIEilGlj.js";import"./index.DhYZZe0J.js";const s=()=>i.jsx("section",{className:"",children:i.jsx(o.div,{initial:{opacity:0},whileInView:{opacity:1},viewport:{once:!0},transition:{duration:.5,delay:.2}})});export{s as Brands};
