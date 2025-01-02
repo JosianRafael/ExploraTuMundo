@@ -1,0 +1,47 @@
+---
+import Layout from '../layouts/Layout.astro'
+import { Hero } from '../components/Hero.jsx'
+import { Navbar } from '../components/Navbar.jsx'
+import { Features1 } from '../components/Features1.jsx'
+import { Features2 } from '../components/Features2.jsx'
+import { FeaturesDiagonal } from '../components/FeaturesDiagonal.jsx'
+import { Pricing } from '../components/Pricing.jsx'
+import { FAQ } from '../components/FAQ.jsx'
+import { Brands } from '../components/Brands.jsx'
+import { Blog } from '../components/Blog'
+import { Footer } from '../components/Footer.jsx'
+import { ScrollUpButton } from '../components/ScrollUpButton'
+import '../styles/Theme.css'
+import '../styles/Diagonals.css'
+---
+
+
+<Layout title="Tailcast">
+	<Navbar client:load />
+	<FAQ client:load /> 
+	<Footer />
+	<ScrollUpButton client:load />
+  </Layout>
+
+  
+
+<!doctype html>
+<html lang="en" class="dark">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+		<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+		<meta name="generator" content={Astro.generator} />
+		<title></title>
+	</head>
+    <body>
+
+		
+        
+
+    </body>
+</html>
